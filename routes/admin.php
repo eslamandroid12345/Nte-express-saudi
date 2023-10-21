@@ -76,7 +76,7 @@ Route::get('/clear', function () {
     Artisan::call('optimize:clear');
     return response()->json(['status' => 'success','code' =>1000000000]);
 });
-//clear cache
+//clear cache by this route
 
 
 
